@@ -68,13 +68,6 @@ body {
   background-color: #55acee !important;
 }
 
-/* Container should go full width */
-.global-nav .container {
-  max-width: none !important;
-  padding-left: 10px !important;
-  padding-right: 5px !important;
-}
-
 /* Bird */
 .bird-topbar-etched {
   position: absolute !important;
@@ -87,12 +80,11 @@ body {
 /* Nav */
 #global-actions > li > a {
   color: #fff !important;
-  border: 0 !important;
-  height: 46px !important;
-  transition: none !important;
+  height: 46px;
+  border-bottom: 4px solid #fff;
 }
 #global-actions > li:hover > a {
-  color: #c4e2f9 !important;
+  color: #fff !important;
 }
 #global-actions > li.active > a,
 #global-actions > li.active:hover > a {
